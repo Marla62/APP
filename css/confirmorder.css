@@ -1,0 +1,175 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-12 15:50:46
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 19:25:41
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+header{
+	height: 4.3rem;
+	width: 7.5rem;
+	background-color: #0a9cf1;
+	padding:0.4rem 0.24rem;
+	z-index: 2;
+}
+header .back{
+	width: 0.54rem;
+	height: 0.54rem;
+	background-image: url('../img/fanhui.png');
+	background-position: center;
+	background-size: cover;
+}
+header .text{
+	width: 100%;
+	height: 0.9em;
+	padding-left: 0.88rem;
+}
+header .text  p{
+	font-size: 0.18rem;
+	color: #fff;
+}
+header .pay{
+	height: 1.9rem;
+	width: 100%;
+	border-radius: 0.2rem;
+	background-color: #fff;
+	margin-top: 0.14rem;
+	margin-bottom: 0.14rem;
+	padding: 0.14rem 0.7rem 0.14rem 0.64rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+header .pay .text1{
+	width: 5.8rem;
+	height: 0.3rem;
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.3rem;
+	padding-top: 0.14rem;
+}
+header .pay .text1 .one{
+	font-size: 0.3rem;
+}
+header .pay .text1 .two{
+	font-size: 0.18rem;
+}
+header .pay .text2{
+	font-size: 0.18rem;
+	color: #000;
+	border-bottom: 1px dotted #000;
+}
+header .pay .text3{
+	display: flex;
+	justify-content: space-between;
+	width: 5.8rem;
+	height: 0.3rem;
+}
+header .pay .text3 .one{
+	font-size: 0.3rem;
+}
+header .pay .text3 .two{
+	font-size: 0.18rem;
+	color: #000;
+}
+header .top{
+	height: 6.8rem;
+	width: 7.02rem;
+	background-color: #fff;
+	border-radius: 0.2rem;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 12px #cecdcd;
+}
+header .top .one{
+	font-size: 0.3rem;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	border-bottom: 1px dotted #000;
+}
+.top .two{
+	height:4.6rem;
+	padding-top: 0.14rem;
+	overflow: scroll;
+}
+.top .two ul li{
+	display: flex;
+	justify-content: space-between;
+}
+.top .two ul li .left img{
+	width: 1.6rem;
+	height: 1.6rem;
+}
+.top .two ul li .right{
+	text-align: center;
+	width: 4.86rem;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	font-size: 0.24rem;
+	display: flex;
+	justify-content: space-between;
+}
+.top .three{
+	height: 0.56rem;
+	border-bottom: 1px dotted #000;
+	font-size: 00.24rem;
+	display: flex;
+	justify-content: space-between;
+}
+.top .money{
+	height: 0.56rem;
+	font-size: 00.24rem;
+	display: flex;
+	justify-content: space-between;
+}
+.between{
+	font-size: 0.24rem;
+	height: 1.38rem;
+	border-radius: 0.2rem;
+	width: 7.02rem;
+	padding: 0.14rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0px 2px 2px #cecdcd;
+}
+.between ul{
+	display: flex;
+	justify-content: space-between;
+}
+footer{
+	background-color: #fff;
+	height: 0.86rem;
+	width: 7.02rem;
+	padding-right: 0.24rem;
+	padding-left: 0.24rem;
+	font-size: 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0.28rem;
+	position: fixed;
+	bottom: 0;
+}
+header footer .left{
+	width: 1.1rem;
+	height: 0.36rem;
+		line-height: 0.36rem;
+}
+header footer .right{
+	width: 1.52rem;
+	height: 0.36rem;
+	border-radius: 0.2rem;
+	background: #68ed6d;
+	line-height: 0.36rem;
+	text-align: center;
+	color: #fff;
+}

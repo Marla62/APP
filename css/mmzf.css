@@ -1,0 +1,55 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-15 14:00:49
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 10:26:10
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+header{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: url('../img/mmzf.png');
+
+}
+header .top{
+	height: 1.28rem;
+	width: 100%;
+	background-color: #099cf1;
+	background-image: url('../img/back.png');
+	background-repeat: no-repeat;
+	background-position: 0.24rem 0.55rem;
+}
+header .between{
+	width: 5.64rem;
+	height: 1.82rem;
+	border-bottom: 0.01rem dotted #099cf1;
+	margin: 1.68rem auto;
+	text-align: center;
+	line-height: 1.82rem;
+}
+header .between .text1{
+	font-size: 0.44rem;
+	color: #099cf1;
+}
+header .between .text2{
+	font-size: 0.66rem;
+	color: #099cf1;
+}
+header .bottom{
+	height: 0.7rem;
+	width: 3.68rem;
+	margin: 0 auto;
+}
+header .bottom ul{
+	display: flex;
+	justify-content: space-between;
+}
+header .bottom ul li{
+	width:0.44rem;
+	height: 0.44rem;
+	border-bottom: 0.04rem solid #c1c1c1;
+}

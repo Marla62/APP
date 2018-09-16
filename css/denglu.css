@@ -1,0 +1,61 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-16 08:27:16
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 19:14:37
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+.bg{
+	background-image: url('../img/denglu.png');
+	width: 7.5rem;
+	height: 13.34rem;
+	background-size: cover;
+	background-position: center;
+	padding-top: 6.4rem;
+}
+.bg input{
+	height: 0.65rem;
+	border: 0px;
+	outline:none;
+}
+.bg .text1,.bg .text2{
+	height: 0.66rem;
+}
+.bg .text1{
+	margin: 0.18rem 2rem;
+}
+.bg .text2{
+	margin: 0.4rem 2rem 1rem;
+}
+.bg .text3{
+	color: #000;
+	font-size: 0.18rem;
+	margin-left: 2.4rem;
+}
+.bg .text3 a{
+	color: #000;
+	font-size: 0.18rem;
+	margin-left: 0.5rem;
+}
+
+button{
+	color: #fff;
+	width: 1.78rem;
+	height: 0.66rem;
+	border-radius: 0.2rem;
+	border: 0;
+	outline: none;
+	background-color: #099cf1;
+	margin: 0 2.86rem;
+}
+.other{
+	font-size: 0.18rem;
+	text-align: center;
+	margin-top: 0.4rem;
+}

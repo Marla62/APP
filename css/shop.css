@@ -1,0 +1,341 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-09 09:46:35
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 16:20:06
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+header{
+	position: fixed;
+	top: 0;
+	height: 1.8rem;
+	width: 7.5rem;
+	background-color: #099cf1;
+	display: flex;
+	flex-wrap:nowrap; 
+	justify-content: space-around;
+	padding-top: 0.4rem;
+}
+header .back{
+	width: 0.46rem;
+	height: 0.46rem;
+	background-image: url('../img/fanhui.png');
+	background-size: cover;
+}
+header .logo{
+	width: 1.18rem;
+	height: 1.18rem;
+	background-image: url('../img/bxyclogo.png');
+	background-size: cover;
+}
+header .profile{
+	width: 4.4rem;
+	height: 1.68rem;
+	text-align: center;
+	color: #ffffff;
+}
+header .profile .text1{
+	font-size: 0.24rem;
+	width: 100%;
+}
+header .profile .text2{
+	width: 100%;
+	font-size: 0.18rem;
+}
+header .profile .text3{
+	width: 100%;
+	display: flex;
+	flex-wrap:nowrap; 
+	justify-content: center;
+}
+header .profile .text3 .star{
+	width: 2rem;
+	height: 0.4rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color: #ffc53d;
+}
+header .profile .text3 .star i{
+	height: 0.24rem;
+	width: 0.24rem;
+	color: #ffc53d;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+}
+header .profile .text3 .score{
+	color: #000;
+	background-color: #fff;
+	width: 0.5rem;
+	height: 0.24rem;
+	line-height: 0.24rem;
+	margin-top: 0.08rem;
+	border-radius: 0.12rem;
+	font-size: 0.18rem;
+}
+header .profile .text4{
+	width: 100%;
+	height: 0.28rem;
+	font-size: 0.18rem;
+	display: flex;
+	flex-wrap:nowrap; 
+	justify-content: center;
+	color: #fff;
+}
+header .profile .text4 .man1{
+	width: 1.2rem;
+	height: 0.35rem;
+	border-radius: 0.13rem;
+	background-color: #47b5f5;
+}
+header .share{
+	width: 0.72rem;
+	height: 0.72rem;
+}
+.row{
+	margin:2.2rem 0 0.8rem 0; 
+	background-color: #fff;
+	width: 7.5rem;
+}
+.row .left{
+	width: 1.66rem;
+
+	background-color: #f5f5f5;
+	font-size: 0.18rem;
+	float: left;
+}
+.row .left ul{
+	width: 1.66rem;
+	height: 5.28rem;
+	text-align: center;
+}
+.row .left ul li{
+	line-height: 0.88rem;
+	height: 0.88rem;
+	width: 1.66rem;
+}
+.active{
+	background-color: #fff;
+	border-right: 2px solid #009cf1;
+}
+.row .right{
+	width: 5.5rem;
+	height: 10.74rem;
+	font-size: 0.18rem;
+	overflow: scroll;
+	float: right;
+	margin-right: 0.24rem;
+}
+.row .right ul {
+	width: 5.6rem;
+}
+.row .right ul li{
+
+	height: 2rem;
+	width: 5.6rem;
+	background-color: #fcfcfc;
+	margin-bottom: 0.14rem;
+	box-shadow: 0  0.02rem 0.04rem rgba(0,0,0,0.4);
+}
+.row .right ul li:nth-child(1){
+	margin-top: 0.08rem;
+}
+.row .right ul li .leftimg{
+	float: left;
+}
+.row .right ul li .leftimg img{
+	width: 1.86rem;
+	height: 2rem;
+
+}
+.row .right ul li .righttext{
+	height: 2.04rem;
+	width:3.56rem;
+	float: right;
+}
+.row .right ul li .righttext .text1{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.08rem;
+	width: 3.2rem;
+}
+ .row .right ul li .righttext .text1 span{
+ 	 font-weight: bold;
+	 font-size: 0.3rem;
+ }
+.row .right ul li .righttext .text1 .num{
+
+	display: flex;
+	justify-content: space-between;
+}
+.row .right ul li .righttext .text1 .num img{
+	width: 0.5rem;
+	height: 0.5rem;
+	display: none;
+}
+.row .right ul li .righttext .text1 .num span{
+	border: none;
+	font-size: 0.3rem;
+	width: 0.3rem;
+	text-align: center;
+	display: none;
+}
+.row .right ul li .righttext .text1 .noadd{
+
+}
+.row .right ul li .righttext .text1 .and{
+	float: right;
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 0.25rem;
+	background-color: black;
+	background-image: url('../img/jia.png');
+	background-position: center;
+	background-size: cover;
+}
+.row .right ul li .righttext .two{
+	margin: 0.14rem 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.row .right ul li .righttext .three{
+	width: 3rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 0.16rem;
+}
+footer{
+	width: 7.5rem;
+	height: 0.8rem;
+	background-color:#505050;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.8rem;
+}
+footer .car{
+	width: 0.68rem;
+	height: 0.68rem;
+	background-image: url('../img/car.png');
+	background-repeat: no-repeat;
+	margin-left: 0.24rem;
+	margin-top: 0.06rem;
+}
+footer .text{
+	color: #fff;
+	height: 0.8rem;
+	margin-left: -0.4rem;
+}
+footer .text .text1{
+	font-size: 0.24rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+footer .text .text2{
+	font-size: 0.18rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+footer .money{
+	width: 2.2rem;
+	height: 0.8rem;
+	background-color: #6a6a6a;
+	color: #fff;
+	font-size: 0.24rem;
+	text-align: center;
+}
+.toper{
+	width: 375px;
+	height: 667px;
+	background: rgba(255, 255, 255, 0.6 );
+	position: fixed;
+	top: 0;
+	display: none;
+
+}
+.toper .box{
+	background-color: #fff;
+	width:3.5rem;
+	height: 6rem;
+	border-radius: 0.2rem;
+	margin: 3.8rem auto;
+	padding-top:0.3rem;
+	padding-left: 0.5rem;
+	box-shadow: 0px 0.02rem 0.2rem #cecdcd;
+}
+.toper img{
+	width: 3rem;
+	height: 3rem;
+	display: block;
+}
+.toper .box .name{
+	height: 0.6rem;
+	margin-top:0.14rem;
+}
+.toper .box .name span:nth-child(1){
+	display: block;
+	width: 0.52rem;
+	height: 0.3rem;
+	color: #fff;
+	background-color:#fda326;
+	font-size: 0.18rem;
+	float: left;
+	text-align: center;
+}
+.toper .box .name span:nth-child(2){
+	font-size: .28rem;
+	display: block;
+	float: left;
+	margin-left: 0.14rem;
+}
+.toper .box p{
+	font-size: 0.18rem;
+	color: #b7b7b7;
+}
+.toper .box .text1{
+	font-size: .3rem;
+	color: #ff0202;
+	float: left;
+	height: 0.4rem;
+	margin-top: 0.7rem;
+}
+.toper .box del{
+	color: #baaeae;
+	font-size: 0.24rem;
+	display: block;
+	float: left;
+	height: 0.4rem;
+	padding-top: 0.05rem;
+	margin-top: 0.7rem;
+}
+.toper .box .and{
+	float: right;
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 0.25rem;
+	background-color: black;
+	background-image: url('../img/jia.png');
+	background-position:-0rem 0;
+	background-size: cover;
+	margin-top: 0.7rem;
+	margin-right: 0.2rem;
+}
+.bk{
+	width: 7.5rem;
+	height: 2rem;
+	position: fixed;
+	bottom: 0.8rem;
+}
